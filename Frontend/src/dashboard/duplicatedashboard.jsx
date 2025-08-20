@@ -30,7 +30,7 @@ export default function DuplicateDashboard() {
 
     try {
       const backendURL = process.env.REACT_APP_URL;
-      console.log(backendURL);
+      // console.log(backendURL);
       const response = await axios.post(`${backendURL}/userdash/getexpenses`, { botid, offset: 0, limit });
 
       if (response.data.success) {
