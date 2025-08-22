@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://fintrackbotwebsite-7iqj.vercel.app'
+  'https://fintrackbotwebsite-7iqj.vercel.app',
+  'https://moneymate-cyan.vercel.app'
 ];
 
 app.use(cors({
